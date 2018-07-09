@@ -29,6 +29,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 After save, restart Slack and enjoy the easy on the eyes theme.
 
-If you used themes and the colors don't look fully correct after applying the changes, add the following custom theme codes in the Slack app: `#2d2d2d,#4d4d4d,#636363,#FFFFFF,#454545,#FFFFFF,#99D04A,#DB6668`
+>If you used themes and the colors don't look fully correct after applying the changes, add the following custom theme codes in the Slack app: `#2d2d2d,#4d4d4d,#636363,#FFFFFF,#454545,#FFFFFF,#99D04A,#DB6668`
 
 *Note: This will have to be done after each Slack app update as the file is overwritten.*
