@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
 ```
 After save, restart Slack and add the following custom theme codes in the Slack app: 
 
+Color Palette: 
 ![#2d2d2d](https://placehold.it/15/2d2d2d/000000?text=+)
 ![#4d4d4d](https://placehold.it/15/4d4d4d/000000?text=+)
 ![#636363](https://placehold.it/15/636363/000000?text=+)
@@ -65,6 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 After save, restart Slack and add the following custom theme codes in the Slack app: 
 
+Color Palette: 
 ![#2d2d2d](https://placehold.it/15/2d2d2d/000000?text=+)
 ![#4a4a4a](https://placehold.it/15/4a4a4a/000000?text=+)
 ![#a50000](https://placehold.it/15/a50000/000000?text=+)
