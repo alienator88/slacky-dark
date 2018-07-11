@@ -2,7 +2,7 @@
 Dark mode theme for Slack desktop clients
 
 # Preview
-![image](https://user-images.githubusercontent.com/6263626/42473985-71adfbda-8383-11e8-8bef-56e7b3dcf635.png)
+![image](https://user-images.githubusercontent.com/6263626/42593334-5e385dfc-8509-11e8-810c-3aef29d02e0c.jpg)
 
 # Installing into Slack client
 Find the Slack application directory as follows:
@@ -26,9 +26,34 @@ document.addEventListener('DOMContentLoaded', function() {
  });
 });
 ```
-
-After save, restart Slack and enjoy the easy on the eyes theme.
-
-If the sidebar remained the default color after applying the changes, add the following custom theme codes in the Slack app: `#2d2d2d,#4d4d4d,#636363,#FFFFFF,#454545,#FFFFFF,#99D04A,#DB6668`
+After save, restart Slack and add the following custom theme codes in the Slack app: `#2d2d2d,#4d4d4d,#636363,#FFFFFF,#454545,#FFFFFF,#99D04A,#DB6668`
 
 *Note: This will have to be done after each Slack app update as the file is overwritten.*
+
+
+
+# Dark Side 
+This is a dark side color variant of the same theme with some red.
+
+# Preview
+![image](https://user-images.githubusercontent.com/6263626/42593468-c4fff48c-8509-11e8-9c68-dee6d5b0766e.jpg)
+
+# Code
+```
+document.addEventListener('DOMContentLoaded', function() {
+ $.ajax({
+   url: 'https://raw.githubusercontent.com/alienator88/slacky-dark/master/darkside.css',
+   success: function(css) {
+     $("<style></style>").appendTo('head').html(css);
+   }
+ });
+});
+```
+
+After save, restart Slack and add the following custom theme codes in the Slack app: `#2d2d2d,#4a4a4a,#a50000,#a50000,#454545,#a50000,#a50000,#DB6668`
+
+# Enjoy
+
+
+
+
