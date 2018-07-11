@@ -58,7 +58,9 @@ After save, restart Slack and add the following custom theme codes in the Slack 
 #2d2d2d,#4a4a4a,#a50000,#a50000,#454545,#a50000,#a50000,#DB6668
 ```
 
-# Enjoy
+# Credits
+
+[Slack Night Mode](https://github.com/laCour/slack-night-mode) - Original CSS used in these themes.
 
 
 
