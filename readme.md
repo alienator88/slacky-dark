@@ -27,9 +27,19 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 ```
 After save, restart Slack and add the following custom theme codes in the Slack app: 
+
+![#2d2d2d](https://placehold.it/15/2d2d2d/000000?text=+)
+![#4d4d4d](https://placehold.it/15/4d4d4d/000000?text=+)
+![#636363](https://placehold.it/15/636363/000000?text=+)
+![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+)
+![#454545](https://placehold.it/15/454545/000000?text=+)
+![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+)
+![#99D04A](https://placehold.it/15/99D04A/000000?text=+)
+![#DB6668](https://placehold.it/15/DB6668/000000?text=+)
 ```
 #2d2d2d,#4d4d4d,#636363,#FFFFFF,#454545,#FFFFFF,#99D04A,#DB6668
 ```
+
 
 *Note: This will have to be done after each Slack app update as the file is overwritten.*
 
@@ -54,6 +64,15 @@ document.addEventListener('DOMContentLoaded', function() {
 ```
 
 After save, restart Slack and add the following custom theme codes in the Slack app: 
+
+![#2d2d2d](https://placehold.it/15/2d2d2d/000000?text=+)
+![#4a4a4a](https://placehold.it/15/4a4a4a/000000?text=+)
+![#a50000](https://placehold.it/15/a50000/000000?text=+)
+![#a50000](https://placehold.it/15/a50000/000000?text=+)
+![#454545](https://placehold.it/15/454545/000000?text=+)
+![#a50000](https://placehold.it/15/a50000/000000?text=+)
+![#a50000](https://placehold.it/15/a50000/000000?text=+)
+![#DB6668](https://placehold.it/15/DB6668/000000?text=+)
 ```
 #2d2d2d,#4a4a4a,#a50000,#a50000,#454545,#a50000,#a50000,#DB6668
 ```
