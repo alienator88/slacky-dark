@@ -70,6 +70,12 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .client_channels_list_container { background-color: #363636; border-right-color: #222; }
 
+a.member_preview_link.member_image.thumb_36 { height: 75px; width: 75px; }
+
+.menu ul li.has_submenu .submenu_caret { right: 64px; }
+
+section.slack_menu_current_team.slack_menu_section { display: none; }
+
 #col_channels { color: #e6e6e6; }
 
 .p-channel_sidebar { background-color: #363636; color: #e6e6e6; }
