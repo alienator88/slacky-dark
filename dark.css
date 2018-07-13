@@ -422,6 +422,8 @@ li#team_help { display: none; }
 
 .current_status_input_for_team_menu .current_status_presets { margin-top: 0px; border-top: 0px solid #363636; }
 
+.team_menu.slack_menu .menu_body, .team_menu.slack_menu .scrolling .menu_body { width: 250px; }
+
 #message_edit_container .message_input { background: #545454; border-color: #363636; color: #e6e6e6; }
 
 #message_edit_container .message_input.focus { border-color: #363636; box-shadow: 0 0 7px rgba(0, 0, 0, 0.15); }
