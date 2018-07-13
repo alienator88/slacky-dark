@@ -416,6 +416,12 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 ts-icon.team_icon.small { display: none; }
 
+li#team_help { display: none; }
+
+.current_status_presets_section_header.section_header { display: none; }
+
+.current_status_input_for_team_menu .current_status_presets { margin-top: 0px; border-top: 1px solid #e8e8e8; }
+
 #message_edit_container .message_input { background: #545454; border-color: #363636; color: #e6e6e6; }
 
 #message_edit_container .message_input.focus { border-color: #363636; box-shadow: 0 0 7px rgba(0, 0, 0, 0.15); }
