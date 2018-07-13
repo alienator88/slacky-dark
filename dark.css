@@ -60,7 +60,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .c-menu { background-color: #222; }
 
-.c-file__slide--meta { background: #222; color: #e6e6e6; }
+.c-file__slide--meta { background: #000; color: #e6e6e6; }
 
 .c-file__action_button, .c-file__action_button:link, .c-file__action_button:visited { color: #e6e6e6; background: #222; }
 
@@ -403,6 +403,10 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 .c-message__editor__input.focus { border-color: #363636; box-shadow: 0 0 7px rgba(0, 0, 0, 0.15); }
 
 .c-message__editor__warning { color: #bf360c; }
+
+.c-icon { color: #e6e6e6; }
+
+.threads_alternative_view_wrapper .threads_alternative_view_emoji { height: 128px; width: 128px; content: url(https://user-images.githubusercontent.com/6263626/42705482-add1b3e4-8690-11e8-96a8-acbb22c4b485.png); background-size: auto; }
 
 #message_edit_container .message_input { background: #545454; border-color: #363636; color: #e6e6e6; }
 
