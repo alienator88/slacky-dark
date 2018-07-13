@@ -56,9 +56,13 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .c-menu_item__label { color: #e6e6e6; }
 
-.c-menu__items { background-color: #2d2d2d; }
+.c-menu__items { background-color: #222; }
 
-.c-menu { background-color: #2d2d2d; }
+.c-menu { background-color: #222; }
+
+.c-file__slide--meta { background: #222; color: #e6e6e6; }
+
+.c-file__action_button, .c-file__action_button:link, .c-file__action_button:visited { color: #e6e6e6; background: #222; }
 
 .c-scrollbar--monkey .c-scrollbar__track { background: #424242; }
 
