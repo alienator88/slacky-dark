@@ -406,7 +406,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-icon { color: #e6e6e6; }
 
-.threads_alternative_view_wrapper .threads_alternative_view_emoji { height: 256px; width: 256px; content: url(https://user-images.githubusercontent.com/6263626/42706815-4bc156d2-8695-11e8-93a7-cfe3e843d710.png); background-size: auto; }
+.threads_alternative_view_wrapper .threads_alternative_view_emoji { height: 512px; width: 512px; content: url(https://user-images.githubusercontent.com/6263626/42706815-4bc156d2-8695-11e8-93a7-cfe3e843d710.png); background-size: auto; }
 
 #message_edit_container .message_input { background: #545454; border-color: #363636; color: #e6e6e6; }
 
