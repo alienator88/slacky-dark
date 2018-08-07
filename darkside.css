@@ -10,6 +10,8 @@ ts-icon.ts_icon_mentions { color: #a50000; }
 ts-icon.ts_icon_star_o { color: #a50000; }
 ts-icon.ts_icon_vertical_ellipsis { color: #a50000; }
 
+.menu ul li a:not(.inline_menu_link) { color: #e6e6e6; }
+
 span.overflow_ellipsis { color: #a50000; }
 #flex_contents .heading_text { color: #a50000; }
 
