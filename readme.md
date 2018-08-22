@@ -41,7 +41,7 @@ Color Palette:
 #2d2d2d,#4d4d4d,#636363,#FFFFFF,#454545,#FFFFFF,#99D04A,#DB6668
 ```
 
-```
+```javascript
 *Note: This will have to be done after each Slack app update as the file is overwritten.*
 ```
 
