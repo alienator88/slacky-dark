@@ -2,8 +2,6 @@ body { background: #222; color: #e6e6e6; }
 
 a { color: #949494; }
 
-#client_body:not(.onboarding):not(.feature_global_nav_layout):before { background: #222222;}
-
 a:link, a:visited { color: #949494; }
 
 a:hover, a:active, a:focus { color: #c7c7c7; }
