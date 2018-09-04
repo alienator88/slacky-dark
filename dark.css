@@ -2,6 +2,8 @@ body { background: #222; color: #e6e6e6; }
 
 a { color: #949494; }
 
+#client_body:not(.onboarding):not(.feature_global_nav_layout):before { background: #222222;}
+
 a:link, a:visited { color: #949494; }
 
 a:hover, a:active, a:focus { color: #c7c7c7; }
@@ -76,7 +78,7 @@ a.member_preview_link.member_image.thumb_36 { height: 75px; width: 75px; }
 
 .menu ul li a:not(.inline_menu_link) { color: #e6e6e6; }
 
-section.slack_menu_current_team.slack_menu_section { display: none; }
+section.slack_menu_current_team_info.slack_menu_section { display: none; }
 
 #col_channels { color: #e6e6e6; }
 
@@ -737,6 +739,8 @@ li#team_help { display: none; }
 .channel_header .blue_on_hover:hover { color: #e6e6e6; }
 
 #client_body:not(.onboarding)::before { background: #222; border-bottom: 1px solid #363636; box-shadow: inset 1px 0 0 0 #222; }
+
+client_body:not(.onboarding):not(.feature_global_nav_layout):before { background: #222222; }
 
 .messages_header { color: #e6e6e6; }
 
