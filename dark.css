@@ -70,6 +70,14 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .client_channels_list_container { background-color: #363636; border-right-color: #222; }
 
+div#inline_message_input_16 { color: #636363; }
+
+div#reply_container { color: #e6e6e6; }
+
+#reply_container.upload_in_threads .inline_message_input_container { background-color: #545454; }
+
+.ql-editor.ql-blank { color: #e6e6e6 };
+
 .menu ul li.has_submenu .submenu_caret { right: 64px; }
 
 .menu ul li a:not(.inline_menu_link) { color: #e6e6e6; }
