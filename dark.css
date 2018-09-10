@@ -74,6 +74,8 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
  div#reply_container { background: #222; color: #e6e6e6; }
 
+#file_reply_container.upload_in_threads .inline_message_input_container form, #reply_container.upload_in_threads .inline_message_input_container form, .reply_input_container.upload_in_threads .inline_message_input_container form { background: #222; }
+
 .inline_message_input_container.with_file_upload { background-color: #222; }
 
 .ql-editor.ql-blank { background: #222, color: #e6e6e6 };
