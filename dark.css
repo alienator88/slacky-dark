@@ -70,15 +70,13 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .client_channels_list_container { background-color: #363636; border-right-color: #222; }
 
- div#inline_message_input_16 { background: #222; color: #636363; }
+ div#inline_message_input_16 { color: #636363; }
 
- div#reply_container { background: #222; color: #e6e6e6; }
+ div#reply_container { color: #e6e6e6; }
 
-#file_reply_container.upload_in_threads .inline_message_input_container form, #reply_container.upload_in_threads .inline_message_input_container form, .reply_input_container.upload_in_threads .inline_message_input_container form { background: #222; }
+#reply_container.upload_in_threads .inline_message_input_container { background-color: #545454; }
 
-.inline_message_input_container.with_file_upload { background-color: #222; }
-
-.ql-editor.ql-blank { background: #222, color: #e6e6e6 };
+.ql-editor.ql-blank { color: #e6e6e6 };
 
 .menu ul li.has_submenu .submenu_caret { right: 64px; }
 
