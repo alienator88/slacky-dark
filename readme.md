@@ -12,9 +12,9 @@ Find the Slack application directory as follows:
 
 Open the most recent version folder (Ex. app-3.1.0).
 
-Navigate to: `\resources\app.asar.unpacked\src\static` and edit file `ssb-interop.js`
+Navigate to: `\resources\app.asar.unpacked\src\static` and edit the files `ssb-interop.js` and `index.js`.
 
-At the very bottom of the file, add a few spaces and the following code:
+At the very bottom of both files, add a few spaces and the following code:
 
 ```javascript
 document.addEventListener('DOMContentLoaded', function() {
