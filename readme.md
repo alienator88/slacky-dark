@@ -58,6 +58,7 @@ Color Palette:
 3. Open Slack and set your color pallete like above and you're all done.
 
 
+
 **Credits**
 
 ###### [Slack Night Mode](https://github.com/laCour/slack-night-mode) ######
