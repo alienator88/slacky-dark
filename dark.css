@@ -70,6 +70,8 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .client_channels_list_container { background-color: #363636; border-right-color: #222; }
 
+div#threads_msgs_scroller_div { outline: none; }
+
 div#inline_message_input_16 { color: #636363; }
 
 div#inline_message_input_23 { border: #545454; }
