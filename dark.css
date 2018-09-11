@@ -78,6 +78,22 @@ div#reply_container { color: #e6e6e6; }
 
 .ql-editor.ql-blank { color: #e6e6e6 };
 
+#threads_msgs .inline_message_input_container.with_file_upload .inline_file_upload {background-color: #545454; border: none}
+
+.reply_input_container .inline_message_input_container .ql-container.focus
+{border: none}
+
+#threads_msgs .inline_message_input_container.with_file_upload
+{background: none; border-color: #545454;}
+
+.inline_message_input_container.with_file_upload
+{border: none;}
+
+.reply_input_container .inline_message_input_container .ql-container
+{border: none;}
+
+.inline_file_upload { top: -.5px; bottom: -.4px left: 0px;
+
 #threads_msgs .inline_message_input_container.with_file_upload { background: #545454; }
 
 .menu ul li.has_submenu .submenu_caret { right: 64px; }
