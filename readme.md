@@ -47,8 +47,9 @@ Color Palette:
 
 # Automated Install
 
-Open powershell and run the following to allow unsigned scripts `set-executionpolicy unrestricted`
-Download SlackInstall.ps1 and run it with powershell. This will automatically add all the code to the correct file.
+1. Open powershell and run the following to allow unsigned scripts ```set-executionpolicy unrestricted```
+
+2. Download SlackInstall.ps1 and run it with powershell. This will automatically add all the code to the correct file.
 
 # Credits
 [Slack Night Mode](https://github.com/laCour/slack-night-mode) - Original CSS used in these themes.
