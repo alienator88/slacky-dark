@@ -59,6 +59,7 @@ Color Palette:
 
 # Credits
 [Slack Night Mode](https://github.com/laCour/slack-night-mode)
+
 [Slack Black Theme](https://github.com/widget-/slack-black-theme) 
 
 
