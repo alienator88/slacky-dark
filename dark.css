@@ -86,6 +86,10 @@ div#reply_container { color: #e6e6e6; }
 
 #threads_msgs .inline_message_input_container.with_file_upload {background: none; border-color: #545454;}
 
+#threads_msgs .inline_message_input_container.with_file_upload .ql-container { border: none; }
+
+.inline_message_input_container.with_file_upload {background: none; border: none;}
+
 .reply_input_container .inline_message_input_container .ql-container {border: 0px;}
 
 div#inline_message_input_16 { border: none; }
