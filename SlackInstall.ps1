@@ -4,7 +4,6 @@ $version = $installations | Sort-Object { [version]$_.Name.Substring(4) } | Sele
 Write-Output "Choosing highest present Slack version: $version"
  $customContent = @'
 
-
  document.addEventListener('DOMContentLoaded', function() {
  $.ajax({
    url: 'https://raw.githubusercontent.com/alienator88/slacky-dark/master/dark.css',
@@ -13,7 +12,6 @@ Write-Output "Choosing highest present Slack version: $version"
    }
  });
 });
-
 
 '@
 Add-Content "$($version.FullName)\resources\app.asar.unpacked\src\static\ssb-interop.js" $customContent
