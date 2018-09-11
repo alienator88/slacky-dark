@@ -45,9 +45,12 @@ Color Palette:
 *Note: This will have to be done after each Slack app update as the file is overwritten.*
 ```
 
+# Automated Install
+
+Open powershell and run the following to allow unsigned scripts `set-executionpolicy unrestricted`
+Download SlackInstall.ps1 and run it with powershell. This will automatically add all the code to the correct file.
 
 # Credits
-
 [Slack Night Mode](https://github.com/laCour/slack-night-mode) - Original CSS used in these themes.
 
 
