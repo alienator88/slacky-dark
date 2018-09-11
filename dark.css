@@ -84,7 +84,7 @@ div#reply_container { color: #e6e6e6; }
 
 #threads_msgs .inline_message_input_container.with_file_upload {background: none; border-color: #545454;}
 
-.reply_input_container .inline_message_input_container .ql-container {border: none;}
+.reply_input_container .inline_message_input_container .ql-container {border: 0px;}
 
 .inline_file_upload { top: .2px; bottom: 0px; left: 0px;}
 
