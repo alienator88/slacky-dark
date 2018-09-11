@@ -6,7 +6,7 @@ Dark mode theme for Slack desktop clients
 
 # Installing into Slack client
 ```javascript
-*For quick/easy install, check the Automated Install section at the bottom.
+*For quick/easy install, check the **Automated Install** section at the bottom.
 ```
 
 Find the Slack application directory as follows:
