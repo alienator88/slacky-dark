@@ -57,14 +57,28 @@ Color Palette:
 
 3. Open Slack and set your color pallete like above and you're all done.
 
+# Enabling Developer Tools in Slack
 
+* Windows: Create a shortcut to Slack and change the target to 
+
+`C:\Windows\System32\cmd.exe /c " SET SLACK_DEVELOPER_MENU=TRUE && start C:\existing\path\to\slack.exe"`
+
+using the path to `slack.exe` that you already have on your computer. (Or use the powershell script SlackDev.ps1)
+
+Run Dev Tools with Ctrl+Alt+I or from Menu > View > Developer.
+
+* Mac: Set up as an Automator program with the "program" being Run Shell Script that has the following code:
+
+```
+export SLACK_DEVELOPER_MENU=true
+
+open -a /Applications/Slack.app
+```
+
+Run Dev Tools with Command+Option+I or from Menu > View > Developer.
 
 **Credits**
 
 ###### [Slack Night Mode](https://github.com/laCour/slack-night-mode) ######
 
 ###### [Slack Black Theme](https://github.com/widget-/slack-black-theme) ######
-
-
-
-
