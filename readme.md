@@ -5,6 +5,8 @@ Dark mode theme for Slack desktop clients
 ![image](https://user-images.githubusercontent.com/6263626/42593334-5e385dfc-8509-11e8-810c-3aef29d02e0c.jpg)
 
 # Installing into Slack client
+!For quick/easy install, check the Automated Install section below!
+
 Find the Slack application directory as follows:
 * Windows: `%homepath%\AppData\Local\slack\`
 * Mac: `/Applications/Slack.app/Contents/`
@@ -50,6 +52,8 @@ Color Palette:
 1. Open powershell and run the following to allow unsigned scripts ```set-executionpolicy unrestricted```
 
 2. Download SlackInstall.ps1 and run it with powershell. This will automatically add all the code to the correct file.
+
+3. Open Slack and set your color pallete like above and you're all done.
 
 # Credits
 [Slack Night Mode](https://github.com/laCour/slack-night-mode) - Original CSS used in these themes.
