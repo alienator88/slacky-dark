@@ -72,7 +72,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 div#inline_message_input_16 { color: #636363; }
 
-div#inline_message_input_23 { border: none; }
+div#inline_message_input_23 { border: #545454; }
 
 div#reply_container { color: #e6e6e6; }
 
@@ -86,9 +86,9 @@ div#reply_container { color: #e6e6e6; }
 
 #threads_msgs .inline_message_input_container.with_file_upload {background: none; border-color: #545454;}
 
-#threads_msgs .inline_message_input_container.with_file_upload .ql-container { border: none; }
+#threads_msgs .inline_message_input_container.with_file_upload .ql-container { border: #545454; }
 
-.inline_message_input_container.with_file_upload {background: none; border: none;}
+.inline_message_input_container.with_file_upload {background: none; border: #545454;}
 
 .reply_input_container .inline_message_input_container .ql-container {border: 0px;}
 
