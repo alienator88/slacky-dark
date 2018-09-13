@@ -412,7 +412,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #primary_file_button { background: padding-box #545454; border-color: #424242; color: #949494; }
 
-#primary_file_button.active, #primary_file_button.focus-ring, #primary_file_button:focus, #primary_file_button:hover { background: #424242; border-color: #363636; color: #e6e6e6; }
+#primary_file_button.active, #primary_file_button.focus-ring, #primary_file_button:focus, #primary_file_button:hover { background: #636363; border-color: #636363; color: #e6e6e6; }
 
 #footer, #footer.footer_msg_input { background: #222; box-shadow: inset 1px 0 0 0 #222; }
 
