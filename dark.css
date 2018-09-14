@@ -556,7 +556,11 @@ li#team_help { display: none; }
 
 ol#c-search_autocomplete__suggestion_list { background: #222; color: #e6e6e6; }
 
+.c-search_autocomplete__suggestion_list { color: #e6e6e6; }
+
 div#c-search_autcomplete__suggestion_item { color: #e6e6e6; }
+
+.c-search_autcomplete__suggestion_item { color: #e6e6e6; }
 
 .c-search_autocomplete footer { background-color: #545454; color: #e6e6e6; }
 
