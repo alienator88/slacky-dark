@@ -2657,6 +2657,8 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #545454; box-shad
 
 #im_browser #im_list_container:not(.keyboard_active).not_scrolling .im_browser_row:not(.disabled_dm):hover, #im_browser .im_browser_row.highlighted { background: #2d2d2d !important; border: none !important; }
 
+#im_browser_tokens #im_browser_filter { background-color: #2d2d2d;}
+
 #im_browser_tokens { background: #545454; border: 1px solid #828282; }
 
 #im_browser_tokens.active { border-color: #828282; box-shadow: 0 0 7px rgba(130, 130, 130, 0.15); }
