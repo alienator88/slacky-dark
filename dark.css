@@ -2645,7 +2645,7 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #545454; box-shad
 
 #notifications_not_working p.highlight_yellow_bg a { color: #e6e6e6; }
 
-#im_browser .im_browser_row { border-top: 1px solid #545454; }
+#im_browser .im_browser_row { border-top: 1px solid #2d2d2d; }
 
 #im_browser .im_browser_row.multiparty { color: #e6e6e6; }
 
