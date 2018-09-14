@@ -1689,7 +1689,7 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
 #flex_contents { background: #222; }
 
-#flex_contents .heading { background: #151515; border-bottom-color: #363636; color: #949494; }
+#flex_contents .heading { background: #222; border-bottom-color: #363636; color: #949494; }
 
 #flex_contents .heading a { color: #949494; }
 
@@ -1725,7 +1725,7 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
 #flex_contents .flexpane_tab_bar li.active a, #flex_contents .flexpane_tab_bar li.active .tab { color: #949494; }
 
-#flex_contents .help { border-top: 5px solid #000; color: #e6e6e6; }
+#flex_contents .help { border-top: 5px solid #000; color: #222; }
 
 #flex_contents i.callout { color: #949494; }
 
@@ -1741,7 +1741,7 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
 .message_location_label { color: #949494; }
 
-#details_tab .heading { background: #151515; }
+#details_tab .heading { background: #222; }
 
 #details_tab .heading a.close_flexpane { color: #949494; }
 
@@ -2831,9 +2831,11 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #545454; box-shad
 
 ts-jumper ts-jumper-container { background: #222; box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5); }
 
-ts-jumper ts-jumper-help { color: #949494; }
+ts-jumper ts-jumper-help { background: #545454; color: #949494; }
 
-ts-jumper input[type=text] { border: 1px solid #000 !important; color: #e6e6e6; }
+ts-jumper .p-jumper__results { border: none; }
+
+ts-jumper input[type=text] { border: 1px solid #000 !important; color: #545454; }
 
 ts-jumper input[type=text]:focus { border: 1px solid rgba(54, 54, 54, 0.8) !important; color: #e6e6e6; }
 
