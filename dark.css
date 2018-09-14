@@ -880,7 +880,7 @@ form#header_search_form { border: none; }
 
 #search_container { pointer-events: none; }
 
-#search_container .search_input { background: transparent; pointer-events: none; }
+#search_container .search_input { background: transparent; }
 
 #search_container .icon_search { color: #949494; }
 
