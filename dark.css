@@ -1777,6 +1777,8 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
 #flex_contents i.callout { color: #949494; }
 
+#flex_contents .help { border: none; }
+
 .close_flexpane { color: #949494; }
 
 .close_flexpane:focus, .close_flexpane:hover { color: #e6e6e6; }
