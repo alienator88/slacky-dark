@@ -416,7 +416,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #primary_file_button { background: padding-box #2d2d2d; border-color: #424242; color: #949494; }
 
-#primary_file_button.active, #primary_file_button.focus-ring, #primary_file_button:focus, #primary_file_button:hover { background: #545454; border: none; color: #e6e6e6; }
+#primary_file_button.active, #primary_file_button.focus-ring, #primary_file_button:focus, #primary_file_button:hover { background: #2d2d2d; border: #2d2d2d; color: #56b68b; }
 
 #footer, #footer.footer_msg_input { background: #222; box-shadow: inset 1px 0 0 0 #222; }
 
