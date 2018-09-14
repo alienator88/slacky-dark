@@ -872,6 +872,8 @@ div#c-search_autcomplete__suggestion_item { color: #e6e6e6; }
 
 .search_focused .search_form { border: none; }
 
+form#header_search_form { border: none; }
+
 .search_clear_icon .ts_icon_times_circle { color: #949494; }
 
 #search_spinner { color: #e6e6e6; }
