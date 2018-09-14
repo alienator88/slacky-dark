@@ -2665,6 +2665,8 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #545454; box-shad
 
 #im_browser_tokens .member_token.ra { background: #bf360c; }
 
+#im_browser.filter_active .qs_tip { display: none; }
+
 .fs_modal_file_viewer_header { background-color: #363636; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); }
 
 .fs_modal_file_viewer_header .btn { color: #e6e6e6; }
