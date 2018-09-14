@@ -366,7 +366,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #select_share_channels .lazy_filter_select .lfs_item .ts_icon:not(.presence_icon) { color: #949494 !important; }
 
-#message_edit_form .emo_menu { color: rgba(230, 230, 230, 0.3); }
+#message_edit_form .emo_menu { color: rgba(230, 230, 230, 0.3); margin-bottom: -2px; }
 
 #message_edit_form .emo_menu.active .ts_icon_happy_smile, #message_edit_form .emo_menu:hover .ts_icon_happy_smile { color: #828282; }
 
@@ -384,9 +384,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_form #msg_input.focus ~ .msg_mentions_button:not(.hover) { color: #e6e6e6; }
 
-#msg_form .msg_mentions_button { color: #949494; }
+#msg_form .msg_mentions_button { color: #949494; margin-bottom: -2px;}
 
-#msg_form .msg_mentions_button:hover { color: #e6e6e6; }
+#msg_form .msg_mentions_button:hover { color: #56b68b; }
 
 #msg_input { background: #545454; border-color: #424242; color: #e6e6e6; }
 
