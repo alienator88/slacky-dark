@@ -194,11 +194,11 @@ section.slack_menu_current_team_info.slack_menu_section { display: none; }
 
 .infinite_spinner_bg, .infinite_spinner_blue { stroke: #e6e6e6; }
 
-body.loading #team_menu, body.loading #quick_switcher_btn, body.loading #team_menu_overlay, body.loading #col_channels_overlay, body.loading #col_channels { background-color: #363636; }
+body.loading #quick_switcher_btn, body.loading #team_menu_overlay, body.loading #col_channels_overlay, body.loading #col_channels { background-color: #363636; }
 
-#team_menu { background: #2D2D2D; border: none; }
+div#team_menu { background: #2D2D2D; border: none; }
 
-#team_menu.active, #team_menu:hover { background: #222 !important; }
+div#team_menu.active, #team_menu:hover { background: #222 !important; }
 
 .p-degraded_list__loading { background-color: #222; color: #e6e6e6; }
 
