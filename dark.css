@@ -90,7 +90,7 @@ div#reply_container { color: #e6e6e6; }
 
 #threads_msgs .inline_message_input_container.with_file_upload {background: none; border-color: #2d2d2d;}
 
-#threads_msgs .inline_message_input_container.with_file_upload .ql-container { border: #2d2d2d; }
+#threads_msgs .inline_message_input_container.with_file_upload .ql-container { border: #2d2d2d; background: #2d2d2d; }
 
 .inline_message_input_container.with_file_upload {background: none; border: #545454;}
 
@@ -2307,7 +2307,7 @@ span.match { background: rgba(191, 54, 12, 0.25); }
 
 #convo_tab textarea.message_input { color: #e6e6e6; }
 
-#reply_container .inline_message_input_container .message_input div, #reply_container .inline_message_input_container textarea, .reply_input_container .inline_message_input_container .message_input div, .reply_input_container .inline_message_input_container textarea { border-color: #363636; color: #e6e6e6; background: #2d2d2d; }
+#reply_container .inline_message_input_container .message_input div, #reply_container .inline_message_input_container textarea, .reply_input_container .inline_message_input_container .message_input div, .reply_input_container .inline_message_input_container textarea { border-color: #363636; color: #e6e6e6; background: #2d2d2d; border-radius: 10px; }
 
 #reply_container .inline_message_input_container .message_input div:active, #reply_container .inline_message_input_container .message_input div:focus, #reply_container .inline_message_input_container textarea:active, #reply_container .inline_message_input_container textarea:focus, .reply_input_container .inline_message_input_container .message_input div:active, .reply_input_container .inline_message_input_container .message_input div:focus, .reply_input_container .inline_message_input_container textarea:active, .reply_input_container .inline_message_input_container textarea:focus { border-color: #000; }
 
