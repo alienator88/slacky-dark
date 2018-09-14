@@ -1108,7 +1108,7 @@ ts-mention { background: rgba(130, 130, 130, 0.1) !important; color: #e6e6e6 !im
 
 .star { color: #949494; }
 
-.star_item { border-bottom: 1px solid #000; }
+.star_item { border-bottom: 1px solid #424242; }
 
 .star_item .star_meta { color: #949494; }
 
