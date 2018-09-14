@@ -464,13 +464,29 @@ li#team_help { display: none; }
 
 #message_edit_container .message_input.focus { border-color: #363636; box-shadow: 0 0 7px rgba(0, 0, 0, 0.15); }
 
+.c-dialog__content { background: #545454; }
+
+.c-dialog__header { background: #545454; }
+
+.c-dialog__title { color: #e6e6e6; }
+
+.c-dialog__footer { background: #545454; }
+
+.c-input_select { background: #545454; }
+
+.c-input_select_options_list_container:not(.c-input_select_options_list_container--always-open) { background-color: #545454; border-color: #444444; }
+
+.c-input_select_options_list__option { color: #e6e6e6; }
+
+.c-button--outline { background: #2d2d2d; color: #e6e6e6; }
+
 .ql-editor::-webkit-scrollbar-thumb { background-color: rgba(84, 84, 84, 0.5); color: #222; }
 
 .ql-editor::-webkit-scrollbar-thumb:hover { background-color: rgba(84, 84, 84, 0.8); }
 
 .ql-placeholder, .texty_legacy .ql-placeholder { color: #e6e6e6; filter: none; }
 
-.ql-container.texty_single_line_input { background: #545454; border: 1px solid #363636; color: #e6e6e6; }
+.ql-container.texty_single_line_input { background: #545454; border: none; color: #e6e6e6; }
 
 .ql-container.texty_single_line_input.focus, .ql-container.texty_single_line_input:hover { border-color: #363636; box-shadow: none; }
 
