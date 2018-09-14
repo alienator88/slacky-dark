@@ -1,8 +1,11 @@
 # Slacky Dark
 Dark mode theme for Slack desktop clients
+```diff
+- ! New update with flatter look - 9/14/18
+```
 
 # Preview
-![image](https://user-images.githubusercontent.com/6263626/42593334-5e385dfc-8509-11e8-810c-3aef29d02e0c.jpg)
+![image](https://user-images.githubusercontent.com/6263626/45573284-6277fa00-b829-11e8-8c18-02c7d57cdbf3.PNG)
 
 # Installing into Slack client
 ```javascript
