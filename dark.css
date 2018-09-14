@@ -864,11 +864,11 @@ div#c-search_autcomplete__suggestion_item { color: #e6e6e6; }
 
 .day_container .day_divider .day_divider_label { background: #222; }
 
-.search_form { border-color: none; background: #2d2d2d; }
+.search_form { border: none; background: #2d2d2d; }
 
 .search_form .search_input { background: transparent; }
 
-.search_form:hover { border-color: none; }
+.search_form:hover { border: none; }
 
 .search_focused .search_form { border-color: #828282; }
 
