@@ -266,7 +266,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .btn.btn_border { border: 2px solid #424242; }
 
-.btn.disabled, .btn:disabled { background-color: #000 !important; }
+.btn.disabled, .btn:disabled { background-color: #2d2d2d !important; }
 
 .btn.disabled:active, .btn.disabled:hover, .btn:disabled:active, .btn:disabled:hover { background-color: #000 !important; }
 
