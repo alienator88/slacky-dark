@@ -366,7 +366,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #select_share_channels .lazy_filter_select .lfs_item .ts_icon:not(.presence_icon) { color: #949494 !important; }
 
-#message_edit_form .emo_menu { color: rgba(230, 230, 230, 0.3); margin-bottom: -2px; }
+#message_edit_form .emo_menu { color: rgba(230, 230, 230, 0.3); }
+
+button#main_emo_menu { margin-bottom: -2px; }
 
 #message_edit_form .emo_menu.active .ts_icon_happy_smile, #message_edit_form .emo_menu:hover .ts_icon_happy_smile { color: #828282; }
 
