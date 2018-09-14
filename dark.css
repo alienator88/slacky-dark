@@ -2837,6 +2837,8 @@ ts-jumper ts-jumper-help { background: #545454; color: #949494; }
 
 ts-jumper .p-jumper__results { border: none; }
 
+ts-jumper .p-jumper__help { background: #545454; }
+
 ts-jumper input[type=text] { border: 1px solid #000 !important; color: #545454; }
 
 ts-jumper input[type=text]:focus { border: 1px solid rgba(54, 54, 54, 0.8) !important; color: #e6e6e6; }
