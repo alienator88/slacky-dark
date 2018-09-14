@@ -78,17 +78,19 @@ div#inline_message_input_23 { border: #545454; }
 
 div#reply_container { color: #e6e6e6; }
 
-#reply_container.upload_in_threads .inline_message_input_container { background-color: #545454; }
+#reply_container.upload_in_threads .inline_message_input_container { background-color: #2d2d2d; }
+
+#reply_container.upload_in_threads.has_focus .inline_message_input_container .inline_file_upload { background: #2d2d2d; border-color: #2d2d2d; }
 
 .ql-editor.ql-blank { color: #e6e6e6; }
 
-#threads_msgs .inline_message_input_container.with_file_upload .inline_file_upload {background-color: #545454; border: none;}
+#threads_msgs .inline_message_input_container.with_file_upload .inline_file_upload {background-color: #2d2d2d; border: none;}
 
 .reply_input_container .inline_message_input_container .ql-container.focus {border: none;}
 
-#threads_msgs .inline_message_input_container.with_file_upload {background: none; border-color: #545454;}
+#threads_msgs .inline_message_input_container.with_file_upload {background: none; border-color: #2d2d2d;}
 
-#threads_msgs .inline_message_input_container.with_file_upload .ql-container { border: #545454; }
+#threads_msgs .inline_message_input_container.with_file_upload .ql-container { border: #2d2d2d; }
 
 .inline_message_input_container.with_file_upload {background: none; border: #545454;}
 
@@ -98,7 +100,7 @@ div#inline_message_input_16 { border: none; }
 
 .inline_file_upload { top: .2px; bottom: 0px; left: 0px;}
 
-#threads_msgs .inline_message_input_container.with_file_upload { background: #545454; }
+#threads_msgs .inline_message_input_container.with_file_upload { background: #2d2d2d; }
 
 .menu ul li.has_submenu .submenu_caret { right: 64px; }
 
@@ -2305,7 +2307,7 @@ span.match { background: rgba(191, 54, 12, 0.25); }
 
 #convo_tab textarea.message_input { color: #e6e6e6; }
 
-#reply_container .inline_message_input_container .message_input div, #reply_container .inline_message_input_container textarea, .reply_input_container .inline_message_input_container .message_input div, .reply_input_container .inline_message_input_container textarea { border-color: #363636; color: #e6e6e6; }
+#reply_container .inline_message_input_container .message_input div, #reply_container .inline_message_input_container textarea, .reply_input_container .inline_message_input_container .message_input div, .reply_input_container .inline_message_input_container textarea { border-color: #363636; color: #e6e6e6; background: #2d2d2d; }
 
 #reply_container .inline_message_input_container .message_input div:active, #reply_container .inline_message_input_container .message_input div:focus, #reply_container .inline_message_input_container textarea:active, #reply_container .inline_message_input_container textarea:focus, .reply_input_container .inline_message_input_container .message_input div:active, .reply_input_container .inline_message_input_container .message_input div:focus, .reply_input_container .inline_message_input_container textarea:active, .reply_input_container .inline_message_input_container textarea:focus { border-color: #000; }
 
