@@ -2667,6 +2667,10 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #545454; box-shad
 
 #im_browser.filter_active .qs_tip { display: none; }
 
+#im_browser .qs_tip.alert { border: none; }
+
+.qs_tip.alert.alert_info { background-color: #2d2d2d; border-color: #2d2d2d; }
+
 .fs_modal_file_viewer_header { background-color: #363636; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); }
 
 .fs_modal_file_viewer_header .btn { color: #e6e6e6; }
