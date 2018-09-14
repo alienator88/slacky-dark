@@ -554,7 +554,7 @@ li#team_help { display: none; }
 
 .c-search__input_box__input.texty_single_line_input.texty_hide_tooltips.texty_legacy.ql-container { border: none; }
 
-ol#c-search_autocomplete__suggestion_list { background: #222; }
+ol#c-search_autocomplete__suggestion_list { background: #222; color: #e6e6e6; }
 
 div#c-search_autcomplete__suggestion_item { color: #e6e6e6; }
 
