@@ -1773,8 +1773,6 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
 #flex_contents .flexpane_tab_bar li.active a, #flex_contents .flexpane_tab_bar li.active .tab { color: #949494; }
 
-#flex_contents .help { border-top: 5px solid #000; color: #222; }
-
 #flex_contents i.callout { color: #949494; }
 
 #flex_contents .help { border: none; }
