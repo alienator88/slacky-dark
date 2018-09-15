@@ -254,6 +254,10 @@ input[data-placeholder]:empty::before, textarea[data-placeholder]:empty::before 
 
 input[disabled], input[readonly], textarea[disabled], textarea[readonly] { background-color: #545454 !important; }
 
+.c-filter_input { background-color: #2d2d2d; border: none; }
+
+.c-filter_input__input[type=text] { background-color: #2d2d2d; }
+
 .form-actions { background-color: #424242; border-top: 1px solid #363636; }
 
 .help-block, .help-inline { color: #949494; }
@@ -2545,13 +2549,13 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #545454; box-shad
 
 .p-apps_browser__apps_list--loading::before { background-color: #363636; }
 
-.p-apps_browser__category_section--tutorial .p-apps_browser__app { border-color: #545454; box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15); }
+.p-apps_browser__category_section--tutorial .p-apps_browser__app { border-color: #2d2d2d; box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15); }
 
 .p-apps_browser__category_section--tutorial .p-apps_browser__app--selected { background: #363636; box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25); }
 
 .p-apps_browser__category_header { background: #222; color: #949494; }
 
-.p-apps_browser__app { border-top-color: #545454; }
+.p-apps_browser__app { border-top-color: #2d2d2d; }
 
 .p-apps_browser__app--selected { background: #363636; border-color: #828282; }
 
@@ -2564,6 +2568,8 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #545454; box-shad
 .p-apps_browser__browse_apps:active, .p-apps_browser__app_action:active { box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.15); }
 
 .p-apps_browser__app_description { color: #949494; }
+
+.p-apps_browser__app--selected { border-top-color: #2d2d2d; }
 
 #fs_modal.p-apps_browser_modal .contents_container .contents .links_container a { color: #949494; }
 
