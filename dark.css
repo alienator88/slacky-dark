@@ -2553,6 +2553,8 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #545454; box-shad
 
 .p-apps_browser__category_section--tutorial .p-apps_browser__app--selected { background: #2d2d2d; }
 
+.p-apps_browser__app .p-apps_browser__app--selected { border: none; background: #2d2d2d; }
+
 .p-apps_browser__category_header { background: #222; color: #949494; }
 
 .p-apps_browser__app { border-top-color: #2d2d2d; }
