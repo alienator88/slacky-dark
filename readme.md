@@ -55,9 +55,7 @@ After save, restart Slack. If any issues are seen with the sidebar colors not sh
 
 * Windows: Create a shortcut to Slack and change the target to 
 
-`C:\Windows\System32\cmd.exe /c " SET SLACK_DEVELOPER_MENU=TRUE && start C:\existing\path\to\slack.exe"`
-
-using the path to `slack.exe` that you already have on your computer. (Or use the powershell script SlackDev.ps1)
+`C:\Windows\System32\cmd.exe /c "SET SLACK_DEVELOPER_MENU=TRUE && start %homepath%\AppData\Local\slack\slack.exe"`
 
 Run Dev Tools with Ctrl+Alt+I or from Menu > View > Developer.
 
