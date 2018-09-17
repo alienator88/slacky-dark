@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
 ```
 After save, restart Slack. If any issues are seen with the sidebar colors not showing correct, set your custom theme like this:
 
-![image](https://user-images.githubusercontent.com/6263626/45647307-c6492f80-ba82-11e8-8e1e-a3f3247aff23.png)
+![image](https://user-images.githubusercontent.com/6263626/45648214-08737080-ba85-11e8-97a9-9a6b9aa8f5cb.png)
 
 ```javascript
 *Note: This will have to be done after each Slack app update as the file is overwritten.*
