@@ -126,7 +126,9 @@ section.slack_menu_current_team_info.slack_menu_section { display: none; }
 
 .p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected { background: #222222; !important; }
 
-.p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover { background: #222222 !important; }
+.p-channel_sidebar__channel--selected:hover { background: #222222 !important; }
+
+.p-channel_sidebar__link--selected:hover { background: #222222 !important; }
 
 .p-channel_sidebar__channel--selected::before, .p-channel_sidebar__channel--selected:hover::before, .p-channel_sidebar__channel--selected::after, .p-channel_sidebar__channel--selected:hover::after { color: #e6e6e6; }
 
