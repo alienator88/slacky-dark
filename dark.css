@@ -468,21 +468,21 @@ li#team_help { display: none; }
 
 .current_status_input_for_team_menu .current_status_presets { margin-top: 0px; border-top: 0px solid #363636; }
 
-.team_menu.slack_menu .menu_body, .team_menu.slack_menu .scrolling .menu_body { width: 250px; }
+.team_menu.slack_menu .menu_body, .team_menu.slack_menu .scrolling .menu_body { width: 250px; background: #2d2d2d; }
 
 #message_edit_container .message_input { background: #545454; border-color: #363636; color: #e6e6e6; }
 
 #message_edit_container .message_input.focus { border-color: #363636; box-shadow: 0 0 7px rgba(0, 0, 0, 0.15); }
 
-.c-dialog__content { background: #545454; }
+.c-dialog__content { background: #2d2d2d; }
 
-.c-dialog__header { background: #545454; }
+.c-dialog__header { background: #2d2d2d; }
 
 .c-dialog__title { color: #e6e6e6; }
 
-.c-dialog__footer { background: #545454; }
+.c-dialog__footer { background: #2d2d2d; }
 
-.c-input_select { background: #545454; }
+.c-input_select { background: #2d2d2d; }
 
 .c-input_select_options_list_container:not(.c-input_select_options_list_container--always-open) { background-color: #545454; border-color: #444444; }
 
@@ -592,7 +592,7 @@ div#c-search_autcomplete__suggestion_item { color: #e6e6e6; }
 
 .c-search_autocomplete { background: #222; }
 
-.c-search-autocomplete { background: #545454; }
+.c-search-autocomplete { background: #2d2d2d; }
 
 .c-search_autocomplete__suggestion_item .token { color: #000 }
 
