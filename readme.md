@@ -7,7 +7,7 @@ Dark mode theme for Slack desktop clients
 ```
 
 # Preview
-![image](https://user-images.githubusercontent.com/6263626/45573284-6277fa00-b829-11e8-8c18-02c7d57cdbf3.PNG)
+![image](https://user-images.githubusercontent.com/6263626/45646513-cc3e1100-ba80-11e8-817c-368b6525f7df.PNG)
 
 # Installing into Slack client
 ```javascript
