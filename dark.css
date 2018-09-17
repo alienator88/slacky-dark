@@ -1,5 +1,7 @@
 body { background: #222; color: #e6e6e6; }
 
+.p-channel_sidebar__static_list { background: #2d2d2d; }
+
 a { color: #949494; }
 
 a:link, a:visited { color: #949494; }
