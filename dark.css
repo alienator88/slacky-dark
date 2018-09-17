@@ -111,7 +111,7 @@ section.slack_menu_current_team_info.slack_menu_section { display: none; }
 
 #col_channels { color: #e6e6e6; }
 
-.p-channel_sidebar { background-color: #363636; color: #e6e6e6; }
+.p-channel_sidebar { background-color: #2d2d2d; color: #e6e6e6; }
 
 .p-channel_sidebar__channel, .p-channel_sidebar__channel:link, .p-channel_sidebar__channel:visited, .p-channel_sidebar__channel:hover, .p-channel_sidebar__link, .p-channel_sidebar__link:link, .p-channel_sidebar__link:visited, .p-channel_sidebar__link:hover { color: rgba(230, 230, 230, 0.8) !important; }
 
