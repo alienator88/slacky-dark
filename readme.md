@@ -3,7 +3,7 @@ Dark mode theme for Slack desktop clients
 ```diff
 - ! New update with flatter look - 9/14/18
 - ! Changed ssb-interop.js code to append to body instead of head tag to overwrite custom theme settings. 
-    No need to add the theme colors anymore. 9/17/18
+-   No need to add the theme colors anymore. 9/17/18
 ```
 
 # Preview
@@ -35,7 +35,9 @@ document.addEventListener('DOMContentLoaded', function() {
  });
 });
 ```
-After save, restart Slack.
+After save, restart Slack. If any issues are seen with the sidebar colors not showing correct, set your custom theme like this:
+
+![image](https://user-images.githubusercontent.com/6263626/45635735-07c9e280-ba63-11e8-91d7-062905844d82.png)
 
 ```javascript
 *Note: This will have to be done after each Slack app update as the file is overwritten.*
