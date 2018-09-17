@@ -38,7 +38,7 @@ After save, restart Slack and add the following custom theme codes in the Slack 
 Color Palette: 
 ![#2d2d2d](https://placehold.it/15/2d2d2d/000000?text=+)
 ![#4d4d4d](https://placehold.it/15/4d4d4d/000000?text=+)
-![#636363](https://placehold.it/15/636363/000000?text=+)
+![#222222](https://placehold.it/15/222222/000000?text=+)
 ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+)
 ![#454545](https://placehold.it/15/454545/000000?text=+)
 ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+)
