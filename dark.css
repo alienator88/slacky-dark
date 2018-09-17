@@ -492,6 +492,8 @@ li#team_help { display: none; }
 
 button.c-button-unstyled.p-custom_status_input__emoji_picker { border: none; }
 
+.p-custom_status_input__emoji_picker { border: none; }
+
 .ql-editor::-webkit-scrollbar-thumb { background-color: rgba(84, 84, 84, 0.5); color: #222; }
 
 .ql-editor::-webkit-scrollbar-thumb:hover { background-color: rgba(84, 84, 84, 0.8); }
