@@ -2673,7 +2673,7 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #545454; box-shad
 
 #im_browser_tokens { background: #2d2d2d !important; border: 1px solid #2d2d2d !important; }
 
-#im_browser_tokens.active { border-color: #828282; box-shadow: 0 0 7px rgba(130, 130, 130, 0.15); }
+#im_browser_tokens.active { border-color: #828282; box-shadow: none; }
 
 #im_browser_tokens .member_token { background: #222; border: 1px solid #000; color: #e6e6e6; }
 
