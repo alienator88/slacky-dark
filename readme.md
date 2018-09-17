@@ -33,7 +33,9 @@ document.addEventListener('DOMContentLoaded', function() {
  });
 });
 ```
-After save, restart Slack and add the following custom theme codes in the Slack app: 
+After save, restart Slack and add the following custom theme codes in the Slack app. If there's a custom theme set, it will override the injected CSS code and the colors won't show correctly in the sidebar.
+
+![image](https://user-images.githubusercontent.com/6263626/45635735-07c9e280-ba63-11e8-91d7-062905844d82.png)
 
 Color Palette: 
 ![#2d2d2d](https://placehold.it/15/2d2d2d/000000?text=+)
@@ -45,7 +47,7 @@ Color Palette:
 ![#99D04A](https://placehold.it/15/99D04A/000000?text=+)
 ![#DB6668](https://placehold.it/15/DB6668/000000?text=+)
 ```
-#2d2d2d,#4d4d4d,#636363,#FFFFFF,#454545,#FFFFFF,#99D04A,#DB6668
+#2d2d2d,#4d4d4d,#222222,#FFFFFF,#454545,#FFFFFF,#99D04A,#DB6668
 ```
 
 ```javascript
