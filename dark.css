@@ -1427,7 +1427,7 @@ ts-message .reply_bar:hover { background: #222; border-color: #000; }
 
 .p-message_pane__limited_history_foreword { background: #363636; background-image: none; color: #e6e6e6; }
 
-.p-message_pane__unread_banner__banner { background: #545454; text-shadow: 0 1px rgba(0, 0, 0, 0.15); }
+.p-message_pane__unread_banner__banner { background: #2d2d2d; text-shadow: 0 1px rgba(0, 0, 0, 0.15); }
 
 .messages_banner { color: #e6e6e6; text-shadow: 0 1px rgba(0, 0, 0, 0.15); }
 
