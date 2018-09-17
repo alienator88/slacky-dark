@@ -262,7 +262,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-filter_input__input[type=text] { background-color: #2d2d2d; }
 
-c-filter_input.c-filter_input--active { border: none; box-shadow: none; }
+.c-filter_input.c-filter_input--active { border: none; box-shadow: none; }
 
 .form-actions { background-color: #424242; border-top: 1px solid #363636; }
 
