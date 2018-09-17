@@ -2,7 +2,8 @@
 Dark mode theme for Slack desktop clients
 ```diff
 - ! New update with flatter look - 9/14/18
-- ! Changed ssb-interop.js code to append to body instead of head tag to overwrite custom theme settings. No need to add the theme colors anymore. 9/17/18
+- ! Changed ssb-interop.js code to append to body instead of head tag to overwrite custom theme settings. 
+    No need to add the theme colors anymore. 9/17/18
 ```
 
 # Preview
