@@ -8,7 +8,7 @@ Write-Output "Choosing highest present Slack version: $version"
  $.ajax({
    url: 'https://raw.githubusercontent.com/alienator88/slacky-dark/master/dark.css',
    success: function(css) {
-     $("<style></style>").appendTo('head').html(css);
+     $("<style></style>").appendTo('body').html(css);
    }
  });
 });
