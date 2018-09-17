@@ -488,7 +488,9 @@ li#team_help { display: none; }
 
 .c-input_select_options_list__option { color: #e6e6e6; }
 
-.c-button--outline { background: #2d2d2d; color: #e6e6e6; }
+.c-button--outline { background: #4d4d4d; color: #e6e6e6; }
+
+button.c-button-unstyled.p-custom_status_input__emoji_picker { border: none; }
 
 .ql-editor::-webkit-scrollbar-thumb { background-color: rgba(84, 84, 84, 0.5); color: #222; }
 
