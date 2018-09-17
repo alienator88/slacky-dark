@@ -2569,7 +2569,7 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #545454; box-shad
 
 .p-apps_browser__app_info { color: #e6e6e6; }
 
-.p-apps_browser__browse_apps, .p-apps_browser__app_action { background-color: #545454; border-color: #828282; color: #e6e6e6; }
+.p-apps_browser__browse_apps, .p-apps_browser__app_action { background-color: #2d2d2d; border-color: #828282; color: #e6e6e6; }
 
 .p-apps_browser__browse_apps:hover, .p-apps_browser__browse_apps:focus, .p-apps_browser__app_action:hover, .p-apps_browser__app_action:focus { background-color: #828282; color: #e6e6e6; }
 
