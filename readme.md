@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
  });
 });
 ```
-After save, restart Slack and add the following custom theme codes in the Slack app. If there's a custom theme set, it will override the injected CSS code and the colors won't show correctly in the sidebar.
+After save, restart Slack and add the following custom theme codes in the Slack app. Your sidebar theme set in the Preferences will override the injected CSS code and the colors won't show correctly in the sidebar if you skip this step.
 
 ![image](https://user-images.githubusercontent.com/6263626/45635735-07c9e280-ba63-11e8-91d7-062905844d82.png)
 
