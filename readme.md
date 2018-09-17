@@ -2,6 +2,7 @@
 Dark mode theme for Slack desktop clients
 ```diff
 - ! New update with flatter look - 9/14/18
+- ! Changed ssb-interop.js code to append to body instead of head tag to overwrite custom theme settings. No need to add the theme colors anymore. 9/17/18
 ```
 
 # Preview
@@ -9,7 +10,7 @@ Dark mode theme for Slack desktop clients
 
 # Installing into Slack client
 ```javascript
-*For quick/easy install, check the **Automated Install** section at the bottom.
+*For quick/easy install on Windows, check the **Automated Install** section at the bottom.
 ```
 
 Find the Slack application directory as follows:
@@ -28,33 +29,18 @@ document.addEventListener('DOMContentLoaded', function() {
  $.ajax({
    url: 'https://raw.githubusercontent.com/alienator88/slacky-dark/master/dark.css',
    success: function(css) {
-     $("<style></style>").appendTo('head').html(css);
+     $("<style></style>").appendTo('body').html(css);
    }
  });
 });
 ```
-After save, restart Slack and add the following custom theme codes in the Slack app. Your sidebar theme set in the Preferences will override the injected CSS code and the colors won't show correctly in the sidebar if you skip this step.
-
-![image](https://user-images.githubusercontent.com/6263626/45635735-07c9e280-ba63-11e8-91d7-062905844d82.png)
-
-Color Palette: 
-![#2d2d2d](https://placehold.it/15/2d2d2d/000000?text=+)
-![#4d4d4d](https://placehold.it/15/4d4d4d/000000?text=+)
-![#222222](https://placehold.it/15/222222/000000?text=+)
-![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+)
-![#454545](https://placehold.it/15/454545/000000?text=+)
-![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+)
-![#99D04A](https://placehold.it/15/99D04A/000000?text=+)
-![#DB6668](https://placehold.it/15/DB6668/000000?text=+)
-```
-#2d2d2d,#4d4d4d,#222222,#FFFFFF,#454545,#FFFFFF,#99D04A,#DB6668
-```
+After save, restart Slack.
 
 ```javascript
 *Note: This will have to be done after each Slack app update as the file is overwritten.*
 ```
 
-# Automated Install
+# Automated Install (Windows)
 
 1. Open powershell and run the following to allow unsigned scripts ```set-executionpolicy unrestricted```
 
