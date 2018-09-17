@@ -124,6 +124,8 @@ section.slack_menu_current_team_info.slack_menu_section { display: none; }
 
 .p-channel_sidebar__channel--im .c-presence--away { color: #949494; }
 
+.p-channel_sidebar__channel--im .c-presence--active { color: #99D04A !important; }
+
 .p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected { background: #222222; !important; }
 
 .p-channel_sidebar__channel--selected:hover { background: #222222 !important; }
@@ -134,7 +136,7 @@ section.slack_menu_current_team_info.slack_menu_section { display: none; }
 
 .p-channel_sidebar__link--selected::before, .p-channel_sidebar__link--selected::after { color: #e6e6e6; }
 
-.p-channel_sidebar__badge, .p-channel_sidebar__banner--mentions { background: #bf360c; }
+.p-channel_sidebar__badge, .p-channel_sidebar__banner--mentions { background: #DB6668; }
 
 .p-channel_sidebar .c-custom_scrollbar__thumb_vertical, .p-channel_sidebar .c-scrollbar__bar { background: #545454; }
 
