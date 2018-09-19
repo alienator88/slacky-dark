@@ -2557,7 +2557,7 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #545454; box-shad
 
 .modal-footer { background: padding-box #222; border-top: 1px solid transparent; box-shadow: none; }
 
-.modal-header { background: padding-box #000; border-bottom: 1px solid #363636; color: #e6e6e6; }
+.modal-header { background: padding-box #2d2d2d; border-bottom: 1px solid #363636; color: #e6e6e6; }
 
 .modal-backdrop { background-color: #222; }
 
