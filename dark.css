@@ -480,7 +480,13 @@ li#team_help { display: none; }
 
 span.c-channel_name { color: #e6e6e6; }
 
-.c-dialog__footer .p-file_upload_dialog__footer_share_inputs { color: #e6e6e6; }
+.p-file_upload_dialog__footer_share_inputs { color: #e6e6e6; }
+
+span.c-channel_name__text { color: #e6e6e6; }
+
+div#share-dialog-message-input { border: none; }
+
+span.c-label__text { color: #e6e6e6; }
 
 .c-dialog__content { background: #2d2d2d; }
 
