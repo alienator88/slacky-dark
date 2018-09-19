@@ -1022,9 +1022,9 @@ form#header_search_form { border: none; }
 
 .c-message__call_sub { color: #949494; }
 
-.c-message_actions__container { background: #222; border-color: #363636; }
+.c-message_actions__container { background: #2d2d2d; border-color: #363636; }
 
-.c-message_actions__container:hover { border-color: #545454; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25); }
+.c-message_actions__container:hover { border-color: none; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25); }
 
 .c-message_actions__button { border-right-color: #363636; color: #949494; }
 
