@@ -882,6 +882,10 @@ div#c-search_autcomplete__suggestion_item { color: #e6e6e6; }
 
 .c-message_list__day_divider__line { border-top-color: #363636; }
 
+.c-message_list__unread_divider__separator { border-color: #2d2d2d; }
+
+.c-message_list__unread_divider__label { background: #2d2d2d; box-shadow: 0 0 2px rgba(0, 0, 0, 0); }
+
 .day_divider, .mention_day_container_div .day_divider { background: #222; color: #949494; }
 
 .day_divider hr, .mention_day_container_div .day_divider hr { border-bottom: 0; border-top: 1px solid #363636; }
@@ -1428,6 +1432,8 @@ ts-message .reply_bar:hover { background: #222; border-color: #000; }
 .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider::before { background: #222; border:none; box-shadow: none; }
 
 .p-message_pane .p-message_pane__top_banners:not(:empty) + div .c-message_list:not(.c-virtual_list--scrollbar):before, .p-message_pane .p-message_pane__top_banners:not(:empty) + div .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before { box-shadow: 0 32px #222; }
+
+.p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list:not(.c-virtual_list--scrollbar):before { border: none; }
 
 .p-message_pane__foreword__description, .p-message_pane__limited_history_alert { color: #e6e6e6; }
 
