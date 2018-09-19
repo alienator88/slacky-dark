@@ -884,7 +884,11 @@ div#c-search_autcomplete__suggestion_item { color: #e6e6e6; }
 
 .c-message_list__unread_divider__separator { border-color: #2d2d2d; }
 
+hr.c-message_list__unread_divider__separator { border-color: #2d2d2d; }
+
 .c-message_list__unread_divider__label { background: #2d2d2d; box-shadow: 0 0 2px rgba(0, 0, 0, 0); }
+
+span.c-message_list__unread_divider__label { background: #2d2d2d; box-shadow: 0 0 2px rgba(0, 0, 0, 0); }
 
 .day_divider, .mention_day_container_div .day_divider { background: #222; color: #949494; }
 
