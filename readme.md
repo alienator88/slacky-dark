@@ -14,18 +14,18 @@ Dark mode theme for Slack desktop clients
 *For quick/easy install on Windows, check the **Automated Install** section at the bottom.
 ```
 
-Find the Slack application directory as follows:
+1. Find the Slack application directory as follows:
 * Windows: `%homepath%\AppData\Local\slack\`
 * Mac: `/Applications/Slack.app/Contents/`
 * Linux: `/usr/lib/slack/`
 
-**NOTE**: This only works on the Slack desktop app in Windows. The UWP store app does not generate the files the same way.
+**NOTE**: You can do this to the Windows Store UWP Slack app as well, but it's recommended to use the Desktop version. If you want to go the UWP route, give yourself access to the following hidden folder `C:\Program Files\WindowsApps\`. The instructions below can be followed in this folder pretty much the same as the ones above.
 
-Open the most recent version folder (Ex. app-3.1.0).
+2. Open the most recent version folder (Ex. app-3.1.0).
 
-Navigate to: `\resources\app.asar.unpacked\src\static` and edit the file `ssb-interop.js`.
+3. Navigate to: `\resources\app.asar.unpacked\src\static` and edit the file `ssb-interop.js`.
 
-At the very bottom of the file, add the following code:
+4. At the very bottom of the file, add the following code:
 
 ```javascript
 document.addEventListener('DOMContentLoaded', function() {
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
  });
 });
 ```
-After save, restart Slack. If any issues are seen with the sidebar colors not showing correct, set your custom theme like this:
+5. After save, restart Slack. If any issues are seen with the sidebar colors not showing correct, set your custom theme like this:
 
 ![image](https://user-images.githubusercontent.com/6263626/45648214-08737080-ba85-11e8-97a9-9a6b9aa8f5cb.png)
 
