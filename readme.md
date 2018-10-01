@@ -19,6 +19,8 @@ Find the Slack application directory as follows:
 * Mac: `/Applications/Slack.app/Contents/`
 * Linux: `/usr/lib/slack/`
 
+**NOTE**: This only works on the Slack desktop app in Windows. The UWP store app does not generate the files the same way.
+
 Open the most recent version folder (Ex. app-3.1.0).
 
 Navigate to: `\resources\app.asar.unpacked\src\static` and edit the file `ssb-interop.js`.
