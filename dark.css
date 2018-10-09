@@ -72,7 +72,9 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .c-scrollbar--monkey .c-scrollbar__bar { background: #545454; box-shadow: 0 3px 0 #222, 0 -3px 0 #222; }
 
-.client_channels_list_container { background-color: #363636; border-right-color: #222; }
+.client_channels_list_container { background-color: #171717;  }
+
+.p-channel_sidebar__list { background-color: #171717; }
 
 div#threads_msgs_scroller_div { outline: none; }
 
@@ -4178,3 +4180,39 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 .para_menu a.trigger.pilcrow { filter: grayscale(2) brightness(1.8); }
 
 .para_menu a.trigger.pilcrow:hover, .para_menu a.trigger.pilcrow.active { filter: grayscale(2) brightness(2); }
+
+/* style search */
+
+.c-search__tabs, c-tabs__tab_menu, .c-search__view {
+    background-color:#222222;
+}
+
+.c-search__main div {
+    background-color:#222222;
+    color: #e6e6e6;
+}
+
+.c-search_message__body span  span.c-mrkdwn__highlight {
+    background-color:#490847;
+}
+
+.c-search__main .c-message_group:hover {
+    border-color:white;
+}
+
+.p-search_filter__title_text {
+    background-color:#222222;
+}
+
+.p-search_filter button {
+    background-color:#222;
+}
+
+.c-button-unstyled:hover {
+    color:white;
+}
+
+.p-search_filter__dates, .p-search_filter__dates, .p-search_filter__date:first-child {
+    border-color:#363636;
+    border-bottom-color:#363636;
+}
