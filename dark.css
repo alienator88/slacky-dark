@@ -4180,3 +4180,39 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 .para_menu a.trigger.pilcrow { filter: grayscale(2) brightness(1.8); }
 
 .para_menu a.trigger.pilcrow:hover, .para_menu a.trigger.pilcrow.active { filter: grayscale(2) brightness(2); }
+
+/* style search */
+
+.c-search__tabs, c-tabs__tab_menu, .c-search__view {
+    background-color:#222222;
+}
+
+.c-search__main div {
+    background-color:#222222;
+    color: #e6e6e6;
+}
+
+.c-search_message__body span  span.c-mrkdwn__highlight {
+    background-color:#490847;
+}
+
+.c-search__main .c-message_group:hover {
+    border-color:white;
+}
+
+.p-search_filter__title_text {
+    background-color:#222222;
+}
+
+.p-search_filter button {
+    background-color:#222;
+}
+
+.c-button-unstyled:hover {
+    color:white;
+}
+
+.p-search_filter__dates, .p-search_filter__dates, .p-search_filter__date:first-child {
+    border-color:#363636;
+    border-bottom-color:#363636;
+}
