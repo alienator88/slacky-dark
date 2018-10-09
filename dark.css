@@ -808,7 +808,7 @@ div#c-search_autcomplete__suggestion_item { color: #e6e6e6; }
 
 .tab_complete_ui .not_in_channel { color: #949494; }
 
-#team_menu { background: #272727; border: none; color: #e6e6e6; }
+#team_menu { background: #171717; border: none; color: #e6e6e6; }
 
 #team_menu.active, #team_menu:hover { background: #222 !important; border: none !important; }
 
