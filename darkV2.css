@@ -1,7 +1,7 @@
 :root {
-    --main-bg-color: var(--main-bg-color); 
-    --sidebar-bg-color: var(--sidebar-bg-color);
-    --main-text-color: var(--main-text-color);
+    --main-bg-color: #222; 
+    --sidebar-bg-color: #2d2d2d;
+    --main-text-color: #e6e6e6;
 }
 
 body { background: var(--main-bg-color); color: var(--main-text-color); }
