@@ -2,6 +2,8 @@
     --main-bg-color: #102027; 
     --sidebar-bg-color: #37474f;
     --main-text-color: #e6e6e6;
+    --2nd-dark-color: #62727b;
+    --3rd-dark-color: #102027;
 }
 
 body { background: var(--main-bg-color); color: var(--main-text-color); }
