@@ -1,14 +1,15 @@
 # Slacky Dark
-Dark mode theme for Slack desktop clients
+Dark mode theme for Slack desktop and web based clients
 ```diff
 - ! New update with flatter look - 9/14/18
 - ! Changed ssb-interop.js code to append to body instead of head tag to overwrite custom theme settings - 9/17/18
+- ! Added userstyle for web based slack client - 10/9/18
 ```
 
 # Preview
 ![image](https://user-images.githubusercontent.com/6263626/45646513-cc3e1100-ba80-11e8-817c-368b6525f7df.PNG)
 
-# Installing into Slack client
+# Installing into Slack Desktop client
 ```javascript
 *For quick/easy install on Windows, check the **Automated Install** section at the bottom.
 ```
@@ -36,13 +37,17 @@ document.addEventListener('DOMContentLoaded', function() {
  });
 });
 ```
-5. After save, restart Slack. If any issues are seen with the sidebar colors not showing correct, set your custom theme like this:
-
-![image](https://user-images.githubusercontent.com/6263626/45648214-08737080-ba85-11e8-97a9-9a6b9aa8f5cb.png)
+5. After save, restart Slack.
 
 ```javascript
 *Note: This will have to be done after each Slack app update as the file is overwritten.*
 ```
+
+# Installing into Slack Web Based Client
+
+1. Install the Stylus extension for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
+
+2. Apply the style from my [UserStyles.org](https://userstyles.org/styles/164675/slacky-dark) page.
 
 # Automated Install (Windows)
 
@@ -50,15 +55,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
 2. Download SlackInstall.ps1 and run it with powershell. This will automatically add all the code to the correct file.
 
-3. Open Slack and set your color pallete like above and you're all done.
-
 # Enabling Developer Tools in Slack
 
 * Windows: Create a shortcut to Slack and change the target to 
 
 `C:\Windows\System32\cmd.exe /c "SET SLACK_DEVELOPER_MENU=TRUE && start %homepath%\AppData\Local\slack\slack.exe"`
 
-Run Dev Tools with Ctrl+Alt+I or from Menu > View > Developer.
+Run Dev Tools with Ctrl+Alt+I or from Menu > View > Developer. 
+
+Refresh Slack window with Ctrl+Shift+R or from Menu > View > Developer.
 
 * Mac: Set up as an Automator program with the "program" being Run Shell Script that has the following code:
 
@@ -69,6 +74,8 @@ open -a /Applications/Slack.app
 ```
 
 Run Dev Tools with Command+Option+I or from Menu > View > Developer.
+
+Refresh Slack window with Ctrl+Shift+R or from Menu > View > Developer.
 
 **Credits**
 
