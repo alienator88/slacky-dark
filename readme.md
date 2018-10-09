@@ -61,9 +61,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 `C:\Windows\System32\cmd.exe /c "SET SLACK_DEVELOPER_MENU=TRUE && start %homepath%\AppData\Local\slack\slack.exe"`
 
-Run Dev Tools with Ctrl+Alt+I or from Menu > View > Developer. 
+Run Dev Tools with <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>I</kbd> or from Menu > View > Developer. 
 
-Refresh Slack window with Ctrl+Shift+R or from Menu > View > Developer.
+Refresh Slack window with <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>R</kbd> or from Menu > View > Developer.
 
 * Mac: Set up as an Automator program with the "program" being Run Shell Script that has the following code:
 
@@ -73,9 +73,9 @@ export SLACK_DEVELOPER_MENU=true
 open -a /Applications/Slack.app
 ```
 
-Run Dev Tools with Command+Option+I or from Menu > View > Developer.
+Run Dev Tools with <kbd>⌘ Command</kbd>+<kbd>⌥ Option</kbd>+<kbd>I</kbd> or from Menu > View > Developer. 
 
-Refresh Slack window with Ctrl+Shift+R or from Menu > View > Developer.
+Refresh Slack window with <kbd>⌘ Command</kbd>+<kbd>SHIFT</kbd>+<kbd>R</kbd> or from Menu > View > Developer.
 
 **Credits**
 
