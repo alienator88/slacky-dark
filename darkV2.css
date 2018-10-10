@@ -10,7 +10,8 @@
 	--badge-color: #DB6668; 
 	--msg-toolbar-hover-color: #56B68B;
 }
-  /* Variables 
+/* 
+-------Variables-------- 
   var(--main-bg-color)
   var(--sidebar-bg-color)
   var(--main-text-color)
@@ -19,7 +20,9 @@
   var(--dark-shade-color)
   var(--active-status-color)
   var(--badge-color)
-  var(--msg-toolbar-hover-color) */
+  var(--msg-toolbar-hover-color) 
+--------------------------
+*/
 
 body { background: #222; color: #e6e6e6; }
 
