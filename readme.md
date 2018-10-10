@@ -79,6 +79,4 @@ Refresh Slack window with <kbd>⌘ Command</kbd>+<kbd>SHIFT</kbd>+<kbd>R</kbd>. 
 
 **Credits**
 
-###### [Slack Night Mode](https://github.com/laCour/slack-night-mode) ######
-
-###### [Slack Black Theme](https://github.com/widget-/slack-black-theme) ######
+###### [Slack Night Mode](https://github.com/laCour/slack-night-mode) | [Slack Black Theme](https://github.com/widget-/slack-black-theme)
