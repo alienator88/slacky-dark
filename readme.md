@@ -78,5 +78,4 @@ Run Dev Tools with <kbd>⌘ Command</kbd>+<kbd>⌥ Option</kbd>+<kbd>I</kbd>.  (
 Refresh Slack window with <kbd>⌘ Command</kbd>+<kbd>SHIFT</kbd>+<kbd>R</kbd>.  (Menu > View > Developer) 
 
 **Credits**
-
 ###### [Slack Night Mode](https://github.com/laCour/slack-night-mode) | [Slack Black Theme](https://github.com/widget-/slack-black-theme)
