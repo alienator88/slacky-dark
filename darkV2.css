@@ -1,3 +1,26 @@
+/* Declare Color Variables */
+:root {
+    --main-bg-color: #102027;
+    --sidebar-bg-color: #37474f;
+    --main-text-color: #e6e6e6; 
+    --light-shade-color: #ADADAD; 
+	--medium-shade-color: #636363;
+	--dark-shade-color: #444444; 
+	--active-status-color: #99D04A; 
+	--badge-color: #DB6668; 
+	--msg-toolbar-hover-color: #56B68B;
+}
+  /* Variables 
+  var(--main-bg-color)
+  var(--sidebar-bg-color)
+  var(--main-text-color)
+  var(--light-shade-color)
+  var(--medium-shade-color)
+  var(--dark-shade-color)
+  var(--active-status-color)
+  var(--badge-color)
+  var(--msg-toolbar-hover-color) */
+
 body { background: #222; color: #e6e6e6; }
 
 a { color: #949494; }
@@ -4183,36 +4206,18 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 
 /* style search */
 
-.c-search__tabs, c-tabs__tab_menu, .c-search__view {
-    background-color:#222222;
-}
+.c-search__tabs, c-tabs__tab_menu, .c-search__view { background-color:#222222; }
 
-.c-search__main div {
-    background-color:#222222;
-    color: #e6e6e6;
-}
+.c-search__main div { background-color:#222222; color: #e6e6e6; }
 
-.c-search_message__body span  span.c-mrkdwn__highlight {
-    background-color:#490847;
-}
+.c-search_message__body span  span.c-mrkdwn__highlight { background-color:#490847; }
 
-.c-search__main .c-message_group:hover {
-    border-color:white;
-}
+.c-search__main .c-message_group:hover { border-color:white; }
 
-.p-search_filter__title_text {
-    background-color:#222222;
-}
+.p-search_filter__title_text { background-color:#222222; }
 
-.p-search_filter button {
-    background-color:#222;
-}
+.p-search_filter button { background-color:#222; }
 
-.c-button-unstyled:hover {
-    color:white;
-}
+.c-button-unstyled:hover { color:white; }
 
-.p-search_filter__dates, .p-search_filter__dates, .p-search_filter__date:first-child {
-    border-color:#363636;
-    border-bottom-color:#363636;
-}
+.p-search_filter__dates, .p-search_filter__dates, .p-search_filter__date:first-child { border-color:#363636; border-bottom-color:#363636; }
