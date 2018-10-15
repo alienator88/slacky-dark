@@ -1,0 +1,66 @@
+.client_channels_list_container {
+    background: #262831;
+}
+
+div#team_menu {
+    border: none;
+}
+
+span#team_menu_user_name {
+    color: #9EA1B3 !important;
+}
+
+a.p-channel_sidebar__channel.p-channel_sidebar__channel--selected {background: #313440;}
+
+
+
+		.p-channel_sidebar {
+			background: #262831;
+			color: #9EA1B3;
+		}
+
+		.p-channel_sidebar__channel,
+		.p-channel_sidebar__link,
+		.p-channel_sidebar__channel:link,
+		.p-channel_sidebar__link:link,
+		.p-channel_sidebar__channel:visited,
+		.p-channel_sidebar__link:visited,
+		.p-channel_sidebar__channel:hover,
+		.p-channel_sidebar__link:hover {
+			color: #9EA1B3;
+		}
+		.p-channel_sidebar__channel--selected,
+		.p-channel_sidebar__link--selected,
+		.p-channel_sidebar__channel--selected:link,
+		.p-channel_sidebar__link--selected:link,
+		.p-channel_sidebar__channel--selected:visited,
+		.p-channel_sidebar__link--selected:visited,
+		.p-channel_sidebar__channel--selected:hover,
+		.p-channel_sidebar__link--selected:hover,
+		.p-channel_sidebar__channel--selected + .p-channel_sidebar__close {
+			color: #9EA1B3;
+		}
+
+		.p-channel_sidebar__channel:hover,
+		.p-channel_sidebar__link:hover,
+		.p-channel_sidebar__close_container:hover {
+			background: #313440;
+		}
+
+		.p-channel_sidebar__header {
+			color: #9EA1B3;
+		}
+
+
+
+div#col_messages {
+    background: #313440;
+}
+
+.p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar) {
+	background: #313440;
+}
+
+div#footer {
+    background: #313440;
+}
