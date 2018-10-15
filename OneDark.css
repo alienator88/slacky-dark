@@ -28,7 +28,7 @@
 		.p-channel_sidebar__channel:hover,
 		.p-channel_sidebar__link:hover,
 		.p-channel_sidebar__close_container:hover {
-			background: #262831;
+			background: #262831 !important;
 		}
 
 		.p-channel_sidebar__header {
@@ -39,7 +39,7 @@
 		.p-channel_sidebar__channel--selected:hover,
 		.p-channel_sidebar__link--selected,
 		.p-channel_sidebar__link--selected:hover {
-			background: #262831;
+			background: #262831 !important;
 		}
 
 body { background: #313440; color: #9ea1b3; }
