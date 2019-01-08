@@ -42,7 +42,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .supports_custom_scrollbar #messages_container::after { background: none !important; }
 
-.supports_custom_scrollbar .texty_legacy:not(.texty_single_line_input) .ql-editor { color: #e6e6e6; }
+.supports_custom_scrollbar .texty_legacy:not(.texty_single_line_input) .ql-editor { color: #e6e6e6; background: #222; }
 
 .monkey_scroll_bar { background: #424242; }
 
@@ -84,11 +84,15 @@ div#inline_message_input_23 { border: #545454; }
 
 div#reply_container { color: #e6e6e6; }
 
+div#message_pane_edit_input { background: none; border: none; }
+
 #reply_container.upload_in_threads .inline_message_input_container { background-color: #2d2d2d; }
 
 #reply_container.upload_in_threads.has_focus .inline_message_input_container .inline_file_upload { background: #2d2d2d; border-color: #2d2d2d; }
 
 .ql-editor.ql-blank { color: #e6e6e6; }
+
+.c-message__editor__emoji_circle_icon, .c-message__editor__emoji_happy_icon, .c-message__editor__emoji_smile_icon { color: rgb(167, 167, 167); }
 
 #threads_msgs .inline_message_input_container.with_file_upload .inline_file_upload {background-color: #2d2d2d; border: none;}
 
