@@ -62,7 +62,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .c-menu__items { background-color: #2d2d2d;  }
 
-.c-message__editor__input--legacy.focus { border: none !important; background: #222 !important; box-shadow: none !important; }
+.c-message__editor__input--legacy.focus { border: none !important; background: #222 !important; box-shadow: 0 0 7px rgba(39, 128, 248, 0) !important; }
 
 .c-message__editor__input--legacy { border: none !important; }
 
