@@ -4226,18 +4226,3 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
     border-bottom-color:#363636;
 }
 
-.p-threads_footer__input {
-background-color: #222!important;
-}
-
-.ql-editor {
-background-color:#222!important;
-}
-
-.p-threads_flexpane__header {
-background-color:#222!important;
-}
-
-.p-threads_footer__input .p-message_input_field {
-background-color:#222!important;
-}
