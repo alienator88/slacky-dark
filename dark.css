@@ -1,21 +1,5 @@
 body { background: #222; color: #e6e6e6; }
 
-.p-threads_footer__input {
-background-color: #222!important;
-}
-
-.c-button-unstyled {
-background-color: #222!important;
-}
-
-.p-threads_flexpane__header {
-background-color:#222!important;
-}
-
-.p-threads_footer__input .p-message_input_field {
-background-color:#222!important;
-}
-
 a { color: #949494; }
 
 a:link, a:visited { color: #949494; }
