@@ -470,7 +470,7 @@ button#main_emo_menu { margin-bottom: -2px; }
 
 .c-message__editor__warning { color: #bf360c; }
 
-.c-icon { color: #e6e6e6; }
+/* .c-icon { color: #e6e6e6; } */
 
 .threads_alternative_view_wrapper .threads_alternative_view_emoji { height: 224px; width: 224px; content: url(https://user-images.githubusercontent.com/6263626/42706815-4bc156d2-8695-11e8-93a7-cfe3e843d710.png); }
 
