@@ -4245,5 +4245,5 @@ button.c-button-unstyled.p-message_input_file_button {
 }
 
 .p-threads_footer__input--legacy .p-message_input_field .ql-placeholder {
-    color: #e6e6e6;
+    color: #e6e6e6 !important;
 }
