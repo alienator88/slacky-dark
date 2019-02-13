@@ -4249,10 +4249,10 @@ button.c-button-unstyled.p-message_input_file_button {
 }
 
 .p-channel_insights__message ts-message.standalone:not(.for_mention_display):not(.for_search_display):not(.for_top_results_search_display):not(.for_star_display) {
-    background-color: #222;
+    background-color: #222 !important;
 }
 
 
 .p-channel_insights__message--truncate::before {
-    background: linear-gradient(180deg,transparent,#222 90%);
+    background: linear-gradient(180deg,transparent,#222 90%) !important;
 }
