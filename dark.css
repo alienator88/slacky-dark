@@ -14,6 +14,10 @@ h1 a { color: #e6e6e6; }
 
 h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
+.p-threads_footer__input--legacy .p-message_input_field .ql-placeholder {
+    color: #e6e6e6 !important;
+}
+
 .bordered { border: 1px solid #363636; }
 
 .top_border { border-top: 1px solid #363636; }
@@ -4244,6 +4248,4 @@ button.c-button-unstyled.p-message_input_file_button {
     background: #222;
 }
 
-.p-threads_footer__input--legacy .p-message_input_field .ql-placeholder {
-    color: #e6e6e6 !important;
-}
+
