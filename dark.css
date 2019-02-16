@@ -4256,3 +4256,35 @@ button.c-button-unstyled.p-message_input_file_button {
 .p-channel_insights__message--truncate::before {
     background: linear-gradient(180deg,transparent,#222 90%) !important;
 }
+
+/* file downloads */
+.c-pillow_file__header, .p-file_list__header, .p-file_list__filters {
+    background-color:#222222;    
+}
+
+.c-pillow_file__title { color:white;}
+
+.ql-editor {
+    background-color:#1F1F1F;
+}
+
+.p-flexpane_header {
+    background-color:#1F1F1F;
+}
+
+.p-download_item__link--show {
+    background-color:#1F1F1F;
+}
+
+.p-downloads_list__shift_hint {
+    background: #1F1F1F;
+}
+
+.p-file_list__file_type_select .c-input_select__selected_value--placeholder {
+    color:white;
+}
+
+.c-pillow_file_container {
+    border-color:black!important;
+}
+/* end file downloads */
