@@ -4288,3 +4288,11 @@ button.c-button-unstyled.p-message_input_file_button {
     border-color:black!important;
 }
 /* end file downloads */
+
+.c-scrollbar__hider {
+background-color:#2D2D2D;
+}
+
+#unread_msgs_div ts-message:hover {
+ background:black;
+}
