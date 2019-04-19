@@ -2,10 +2,6 @@
 Dark mode theme for Slack desktop and web based clients
 ```diff
 - ! I'm not maintaining issues for this anymore since I don't use Slack for work anymore. 
-
-- ! New update with flatter look - 9/14/18
-- ! Changed ssb-interop.js code to append to body instead of head tag to overwrite custom theme settings - 9/17/18
-- ! Added userstyle for web based slack client - 10/9/18
 ```
 
 # Preview
