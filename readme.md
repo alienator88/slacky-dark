@@ -1,7 +1,7 @@
 # Slacky Dark
 Dark mode theme for Slack desktop and web based clients
 ```diff
-- ! I'm not maintaining issues for this anymore since I don't use Slack for work anymore. 
+- ! I'm not maintaining issues for this anymore. 
 ```
 
 # Preview
