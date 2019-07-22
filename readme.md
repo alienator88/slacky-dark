@@ -1,6 +1,7 @@
 # Slacky Dark
 Dark mode theme for Slack desktop and web based clients
 ```diff
+- ! This does not work with Slack 4.0 or higher. Only 3.4 and below as it requires a new process to unpack the app.asar file.
 - ! I'm not maintaining issues for this anymore. 
 ```
 
